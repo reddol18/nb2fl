@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-BC4tYpEq.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DlDe3NbF.css">
+    <title>네블2페북</title>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-934PXPLSC6"></script>
+      <script>
+          // window.dataLayer와 gtag 함수는 GA 스크립트가 로드되면 사용 가능하도록 여기에 둡니다.
+          // 이 부분은 비동기 스크립트보다 먼저 실행될 수 있지만, gtag 함수 자체는 비동기 스크립트가 로드된 후 정의됩니다.
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date()); // gtag.js 로드 확인 없이 바로 실행될 수 있음.
+
+          // ⭐ 이 <script> 태그에 type="module"을 추가하고, 환경 변수를 사용하여 config를 조건부로 호출합니다. ⭐
+          // 여기서 import.meta.env를 사용하므로 type="module"이 필수입니다.
+      </script>
+    <script type="module" crossorigin src="/assets/index-C_WxgUv6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CaVpzY3r.css">
   </head>
   <body>
     <div id="app"></div>
